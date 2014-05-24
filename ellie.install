@@ -31,8 +31,8 @@ function ellie_install() {
     
     // Assign user 1 the "administrator" role.
     db_insert('users_roles')
-    ->fields(array('uid' => 1, 'rid' => $admin_role->rid))
-    ->execute();
+        ->fields(array('uid' => 1, 'rid' => $admin_role->rid))
+        ->execute();
     
     // Enable the admin theme.
     $admin_theme = 'seven';
@@ -51,20 +51,20 @@ function ellie_install() {
     // Set up a Masquerade block
     $default_theme = variable_get('theme_default', 'bartik');
     $blocks = array(
-    array(
-      'module' => 'masquerade',
-      'delta' => 'masquerade',
-      'theme' => $default_theme,
-      'status' => 1,
-      'weight' => 100,
-      'region' => 'footer',
-      'pages' => '',
-      'cache' => -1,
-    ),
+        array(
+          'module' => 'masquerade',
+          'delta' => 'masquerade',
+          'theme' => $default_theme,
+          'status' => 1,
+          'weight' => 100,
+          'region' => 'footer',
+          'pages' => '',
+          'cache' => -1,
+        ),
     );
     $query = db_insert('block')->fields(array('module', 'delta', 'theme', 'status', 'weight', 'region', 'pages', 'cache'));
     foreach ($blocks as $block) {
-    $query->values($block);
+        $query->values($block);
     }
     $query->execute();
 }
