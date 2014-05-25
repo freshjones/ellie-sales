@@ -19,7 +19,7 @@ dependencies[] = file
 
 ; MZ - general
 dependencies[] = libraries
-dependencies[] = strongarm
+;dependencies[] = strongarm
 dependencies[] = masquerade
 dependencies[] = addressfield
 ;dependencies[] = advanced_help
@@ -48,7 +48,7 @@ dependencies[] = views_bulk_operations
 dependencies[] = field_group
 dependencies[] = views
 dependencies[] = views_ui
-dependencies[] = entitycache
+;dependencies[] = entitycache
 dependencies[] = rules
 dependencies[] = rules_admin
 ;dependencies[] = flag
@@ -60,13 +60,13 @@ dependencies[] = rules_admin
 ;dependencies[] = role_export
 
 ; MZ - Media
-dependencies[] = media
+;dependencies[] = media
 
 ; MZ - Editor
-dependencies[] = wysiwyg
-dependencies[] = workbench
-dependencies[] = workbench_media
-dependencies[] = workbench_moderation
+;dependencies[] = wysiwyg
+;dependencies[] = workbench
+;dependencies[] = workbench_media
+;dependencies[] = workbench_moderation
 
 ; MZ - Developer
 dependencies[] = features
@@ -75,8 +75,8 @@ dependencies[] = admin_menu
 dependencies[] = admin_menu_toolbar
 
 ; MZ - SEO
-dependencies[] = googleanalytics
+;dependencies[] = googleanalytics
 dependencies[] = pathauto
-dependencies[] = xmlsitemap
-dependencies[] = globalredirect
+;dependencies[] = xmlsitemap
+;dependencies[] = globalredirect
 
