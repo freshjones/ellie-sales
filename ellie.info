@@ -21,14 +21,12 @@ dependencies[] = file
 dependencies[] = libraries
 dependencies[] = masquerade
 dependencies[] = addressfield
-dependencies[] = backup_migrate
 dependencies[] = ctools
 dependencies[] = date
 dependencies[] = email
 dependencies[] = entity
 dependencies[] = entityreference
 dependencies[] = entity_token
-dependencies[] = jquery_update
 dependencies[] = link
 dependencies[] = menu_block
 dependencies[] = token
@@ -41,8 +39,8 @@ dependencies[] = rules
 dependencies[] = rules_admin
 
 ; MZ - Developer
-dependencies[] = features
-dependencies[] = devel
+;dependencies[] = features
+;dependencies[] = devel
 dependencies[] = admin_menu
 dependencies[] = admin_menu_toolbar
 
