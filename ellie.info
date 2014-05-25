@@ -5,7 +5,7 @@ core = 7.x
 ; MZ - core
 dependencies[] = block
 ;dependencies[] = comment
-;dependencies[] = contextual
+dependencies[] = contextual
 dependencies[] = image
 ;dependencies[] = list
 dependencies[] = menu
@@ -19,26 +19,15 @@ dependencies[] = file
 
 ; MZ - general
 dependencies[] = libraries
-;dependencies[] = strongarm
 dependencies[] = masquerade
 dependencies[] = addressfield
-;dependencies[] = advanced_help
 dependencies[] = backup_migrate
-;dependencies[] = context
-;dependencies[] = context_ui
 dependencies[] = ctools
 dependencies[] = date
-;dependencies[] = date_all_day
-;dependencies[] = date_api
-;dependencies[] = date_popup
-;dependencies[] = date_views
-;dependencies[] = diff
 dependencies[] = email
 dependencies[] = entity
 dependencies[] = entityreference
 dependencies[] = entity_token
-;dependencies[] = file
-;dependencies[] = filter
 dependencies[] = jquery_update
 dependencies[] = link
 dependencies[] = menu_block
@@ -48,25 +37,8 @@ dependencies[] = views_bulk_operations
 dependencies[] = field_group
 dependencies[] = views
 dependencies[] = views_ui
-;dependencies[] = entitycache
 dependencies[] = rules
 dependencies[] = rules_admin
-;dependencies[] = flag
-;dependencies[] = invisimail
-;dependencies[] = spamicide
-;dependencies[] = caption_filter
-;dependencies[] = transliteration
-;dependencies[] = taxonomy_entity_index
-;dependencies[] = role_export
-
-; MZ - Media
-;dependencies[] = media
-
-; MZ - Editor
-;dependencies[] = wysiwyg
-;dependencies[] = workbench
-;dependencies[] = workbench_media
-;dependencies[] = workbench_moderation
 
 ; MZ - Developer
 dependencies[] = features
@@ -74,9 +46,11 @@ dependencies[] = devel
 dependencies[] = admin_menu
 dependencies[] = admin_menu_toolbar
 
-; MZ - SEO
-;dependencies[] = googleanalytics
-dependencies[] = pathauto
-;dependencies[] = xmlsitemap
-;dependencies[] = globalredirect
-
+; Commerce modules
+dependencies[] = commerce
+dependencies[] = commerce_product
+dependencies[] = commerce_product_ui
+dependencies[] = commerce_price
+dependencies[] = commerce_features
+dependencies[] = commerce_product_reference
+dependencies[] = commerce_line_item

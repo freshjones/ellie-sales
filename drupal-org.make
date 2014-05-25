@@ -78,10 +78,30 @@ projects[libraries][subdir] = "contrib"
 ; Allow libraries to be put also in the parent profile. See https://drupal.org/node/1811486
 projects[libraries][patch][] = "https://drupal.org/files/1811486-sub-profiles-2.patch"
 
+
+; Commerce
+projects[commerce][version] = 1.9
 projects[commerce][subdir] = contrib
-projects[commerce][type] = module
-projects[commerce][download][type] = git
-projects[commerce][download][url] = git://github.com/drupalcommerce/drupalcommerce.git
+
+projects[commerce_features][version] = 1.0-rc1
+projects[commerce_features][subdir] = "contrib"
+projects[commerce_features][patch][] = "http://drupal.org/files/1402762_export_flat_rate_commerce_features-6.patch"
+
+projects[commerce_migrate][version] = 1.x-dev
+projects[commerce_migrate][subdir] = "contrib"
+
+
+; Migrate
+projects[migrate][version] = 2.5
+projects[migrate][subdir] = "contrib"
+
+projects[migrate_extras][version] = 2.5
+projects[migrate_extras][subdir] = "contrib"
+; Add support for bean migrate; see https://drupal.org/node/1977058
+projects[migrate_extras][patch][] = "https://drupal.org/files/migrate_extras_entity_api_entity_keys_name.patch"
+
+
+
 
 
 ; SEO
