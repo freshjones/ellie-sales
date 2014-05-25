@@ -61,8 +61,8 @@ projects[ctools][version] = 1.4
 projects[ctools][subdir] = "contrib"
 
 ; Development
-;projects[devel][version] = 1.4
-;projects[devel][subdir] = "contrib"
+projects[devel][version] = 1.4
+projects[devel][subdir] = "contrib"
 
 projects[features][version] = 2.0
 projects[features][subdir] = "contrib"
