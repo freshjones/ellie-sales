@@ -114,8 +114,8 @@ projects[jquery_update][subdir] = "contrib"
 ;projects[role_export][subdir] = "contrib"
 
 ; SEO
-;projects[pathauto][version] = 1.2
-;projects[pathauto][subdir] = "contrib"
+projects[pathauto][version] = 1.2
+projects[pathauto][subdir] = "contrib"
 
 ;projects[redirect][version] = 1.0-rc1
 ;projects[redirect][subdir] = "contrib"
