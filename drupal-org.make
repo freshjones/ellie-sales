@@ -64,11 +64,11 @@ projects[ctools][subdir] = "contrib"
 ;projects[devel][version] = 1.4
 ;projects[devel][subdir] = "contrib"
 
-;projects[features][version] = 2.0
-;projects[features][subdir] = "contrib"
+projects[features][version] = 2.0
+projects[features][subdir] = "contrib"
 
-;projects[strongarm][version] = 2.0
-;projects[strongarm][subdir] = "contrib"
+projects[strongarm][version] = 2.0
+projects[strongarm][subdir] = "contrib"
 
 projects[masquerade][version] = 1.0-rc5
 projects[masquerade][subdir] = "contrib"

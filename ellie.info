@@ -39,7 +39,8 @@ dependencies[] = rules
 dependencies[] = rules_admin
 
 ; MZ - Developer
-;dependencies[] = features
+dependencies[] = features
+dependencies[] = strongarm
 ;dependencies[] = devel
 dependencies[] = admin_menu
 dependencies[] = admin_menu_toolbar
